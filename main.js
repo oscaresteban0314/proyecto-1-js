@@ -15,5 +15,5 @@ function sumar(event) {
     let n2 =Number(num2.value);
     let n1 =Number(num1.value);
     let suma = n1 + n2;
-    resultp.innerText = "Resultado: "+suma; 
+    resultp.innerText = "Resultado: "+suma;
 }
