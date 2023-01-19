@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manipulacion de DOM- Curso practico de JS</title>
 </head>
 <body>
-    <h1 pantalla="Smansung">Manipulacion basica de DOM</h1>
-    <input type="text" name="placeholder_1" id="num1" placeholder="escribe un numero 1" onchange="console.log('camio el input 1')">
-    <input type="text" name="placeholder_1" id="num2" placeholder="escribe un numero 2" onchange="console.log('camio el input 2')">
-    <button id="result" onclick="sumar()">sumar</button>
+    <form action="" id="form">
+        <h1 pantalla="Smansung">Manipulacion basica de DOM</h1>
+    <input type="text"  id="num1" placeholder="escribe un numero 1">
+    <input type="text"  id="num2" placeholder="escribe un numero 2">
+    <input type="submit" value="Calcular" id="result">
     <p id="resultp"></p>
+    </form>
     <script src="main.js"></script>
 </body>
 </html>
